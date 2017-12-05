@@ -2,5 +2,7 @@
 
 # Steps
 Create schematic
+
 run make
+
 run interactive commands, e.g. plot abs(vout)
