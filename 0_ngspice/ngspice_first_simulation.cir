@@ -1,0 +1,16 @@
+* /home/asura/documents/KiCad/0_ngspice/ngspice_first_simulation.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Tue 05 Dec 2017 07:53:57 PM CET
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+R1  vout vin 1K		
+V1  vin 0 DC 12		
+R2  0 vout 3K		
+
+* Transient analysis with 1 ms steps to 20 ms
+.TRAN 1ms 20ms
+
+.end
